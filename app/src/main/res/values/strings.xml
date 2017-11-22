@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GPSgame</string>
+    <string name="button_response">Timing!</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
