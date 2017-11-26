@@ -6,13 +6,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 /**
  * Created by kev on 26/11/17.
  */
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
-
 
     ListView choiceList;
 
@@ -30,9 +30,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         switch(position) {
             case 0:
                 intent.setClass(this, WorkoutActivity.class);
-                intent.putExtra("position", position);
-                intent.putExtra("id", id);
                 startActivity(intent);
+                break;
+            case 1:
+                Toast.makeText(getBaseContext(), "Not implemented", Toast.LENGTH_SHORT).show();
+                break;
+            case 2:
+                Toast.makeText(getBaseContext(), "Not implemented", Toast.LENGTH_SHORT).show();
+                break;
         }
     }
 }

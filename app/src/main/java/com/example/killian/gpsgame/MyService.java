@@ -32,13 +32,13 @@ public class MyService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         LocalBroadcastManager.getInstance(this).registerReceiver(mMessageReceiver,
                 new IntentFilter("Service counter"));
-        Toast.makeText(this, "GAME STARTED",Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "GAME STARTED",Toast.LENGTH_SHORT).show();
         return START_STICKY;
     }
 
     public void onDestroy() {
         LocalBroadcastManager.getInstance(this).unregisterReceiver(mMessageReceiver);
-        Toast.makeText(this, "Game over!", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Game over!", Toast.LENGTH_SHORT).show();
         super.onDestroy();
 
     }
