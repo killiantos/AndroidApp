@@ -24,6 +24,10 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".WorkoutActivity">
+
+        </activity>
+
         <service
             android:name=".MyService"
             android:enabled="true"
