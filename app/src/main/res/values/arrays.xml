@@ -3,8 +3,8 @@
 
     <string-array name="mainList">
         <item>New Workout</item>
-        <item>2</item>
-        <item>3</item>
+        <item>Activity 2</item>
+        <item>Activity 3</item>
     </string-array>
 
     <string-array name="range">
