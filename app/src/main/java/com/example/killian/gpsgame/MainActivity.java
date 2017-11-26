@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         setContentView(R.layout.activity_main);
         choiceList = (ListView) findViewById(R.id.mainChoicesListView);
         choiceList.setOnItemClickListener(this);
+        //Database.testDatabase(this);
     }
 
     @Override

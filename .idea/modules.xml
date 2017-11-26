@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file:///run/media/kev/HDD/Documents/UCD/Y4S1/COMP41690 Practical Android Programming/Project/AndroidApp/AndroidApp.iml" filepath="/run/media/kev/HDD/Documents/UCD/Y4S1/COMP41690 Practical Android Programming/Project/AndroidApp/AndroidApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidApp.iml" filepath="$PROJECT_DIR$/AndroidApp.iml" />
-      <module fileurl="file:///run/media/kev/HDD/Documents/UCD/Y4S1/COMP41690 Practical Android Programming/Project/AndroidApp/app/app.iml" filepath="/run/media/kev/HDD/Documents/UCD/Y4S1/COMP41690 Practical Android Programming/Project/AndroidApp/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
