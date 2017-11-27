@@ -28,6 +28,10 @@
 
         </activity>
 
+        <activity android:name=".WorkoutHistory">
+
+        </activity>
+
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps">

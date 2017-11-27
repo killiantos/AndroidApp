@@ -33,7 +33,7 @@ public class WorkoutActivity extends AppCompatActivity {
 
             }
         });
-        }
+    }
 
     public void StartGame(View v){
         String text = mySpinner.getSelectedItem().toString();

@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 Toast.makeText(getBaseContext(), "Not implemented", Toast.LENGTH_SHORT).show();
                 break;
             case 2:
-                Toast.makeText(getBaseContext(), "Not implemented", Toast.LENGTH_SHORT).show();
+                intent.setClass(this, WorkoutHistory.class);
+                startActivity(intent);
                 break;
         }
     }
