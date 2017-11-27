@@ -131,7 +131,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 intent.putExtra("counter", counter);
                 counter++;
                 LocalBroadcastManager.getInstance(this).sendBroadcast(intent);
-                Toast.makeText(this, "GOAL REACHED!", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "GOAL REACHED!", Toast.LENGTH_SHORT).show();
             }
         }
     }
@@ -166,7 +166,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         //move map
         mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-        Toast.makeText(this, markerOptions.getPosition().toString(), Toast.LENGTH_LONG).show();
+        Toast.makeText(this, markerOptions.getPosition().toString(), Toast.LENGTH_SHORT).show();
 
         //stop location updates
         if (mGoogleApiClient != null) {

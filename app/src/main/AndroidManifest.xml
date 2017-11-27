@@ -24,6 +24,19 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".WorkoutActivity">
+
+        </activity>
+
+        <activity android:name=".WorkoutHistory">
+
+        </activity>
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps">
+        </activity>
+
         <service
             android:name=".MyService"
             android:enabled="true"
@@ -41,9 +54,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
     </application>
 
 </manifest>

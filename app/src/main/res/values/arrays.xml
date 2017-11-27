@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <string-array name="mainList">
+        <item>New Workout</item>
+        <item>Step Counter</item>
+        <item>Workout History</item>
+    </string-array>
+
     <string-array name="range">
         <item>1</item>
         <item>2</item>
         <item>5</item>
-
     </string-array>
+
 </resources>
